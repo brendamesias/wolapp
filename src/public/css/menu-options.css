@@ -4,20 +4,20 @@
   display: none;
   padding: 10px 0;
   background-color:#7eb4ee;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .menu-option {
   padding: 3px 0;
   text-align: center;
   display: block;
-  font-size: 23px;
-  font-weight: lighter;
+  font-size: 20px;
+  font-weight: 40100;
   color: rgb(255, 255, 255);
-  font-family: 'Boogaloo', cursive;
 }
 .menu-option:hover {
-  color:#000000;
-  font-weight: bolder;
+  color: #223d74;
+  font-weight: 420;
 }
 
 @media only screen and (min-width: 600px) {
@@ -35,17 +35,16 @@
     padding: 5px 0;
   }
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 920px) {
   .menu-options {
     margin-top: 60px;
     margin-bottom: 0;
     display: flex;
     justify-content: space-around;
     padding: 5px 0;
-    background-color:#7eb4ee;
+    background-color:#a2a8ac;
   }
   .menu-option {
-    color: rgb(0, 0, 0);
-    font-family: 'Boogaloo', cursive;
+    color: rgb(255, 255, 255);
 }
 }

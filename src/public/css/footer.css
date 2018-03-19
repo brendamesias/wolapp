@@ -1,6 +1,10 @@
 footer{
     background-color: #206497;
+    height: 5em;
     color: #fff;
+    margin-top: 1em;
+    display: flex !important;
+    align-items: center;
 }
 footer > span{
     margin-top: 0.5em;
