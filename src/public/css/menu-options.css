@@ -3,7 +3,7 @@
   margin-bottom: 0;
   display: none;
   padding: 10px 0;
-  background-color:#7eb4ee;
+  background-color:#3e8ebf;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -18,6 +18,10 @@
 .menu-option:hover {
   color: #223d74;
   font-weight: 420;
+}
+h6{
+  background: rgba(0, 0, 0, 0.535);
+  padding: 0.5em 1em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -42,7 +46,7 @@
     display: flex;
     justify-content: space-around;
     padding: 5px 0;
-    background-color:#a2a8ac;
+    background-color:#3e8ebf;
   }
   .menu-option {
     color: rgb(255, 255, 255);
@@ -89,16 +93,13 @@
     justify-content: space-between;
     top: 0;
   }
-  h6{
-    font-size: 15px;
-  }
   .menu-options {
     margin-top: 44px;
     margin-bottom: 0;
     display: flex;
     justify-content: space-around;
     padding: 5px 0;
-    background-color: #a2a8ac;
+    background-color: #63c0fd;
   }
     body {
       margin-top:78px;
@@ -111,9 +112,10 @@
       height: 10em;
   }
   h6 {
-    font-size: 11px;
+    font-size: 11px !important;
     text-align: left;
     font-family: sans-serif;
+    font-weight: 200;
   }
   .carousel-item > img {
     height: 10em !important;
@@ -124,7 +126,7 @@
     cursor: pointer;
   }
   .d-md-block{
-    top: 10px;
+    top: 28px;
   }
 }
 @media only screen and (max-width: 270px) {
